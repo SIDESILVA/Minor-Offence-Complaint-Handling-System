@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image:  url(../Img/ba1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    margin-top: 2%;
+    
+}
+
+.list{
+    margin-top: -8%; 
+    
+}
+
+.logo {
+    width: 220px;
+    cursor: pointer;
+    
+}
+
+/* Add this CSS code for the hover effect */
+.logo:hover span {
+    background: red; /* Change the background color on hover */
+    color: #000; /* Change the text color on hover */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Increase the size on hover (adjust the scale as needed) */
+}
+
+    
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+    margin-top: -8%;
+    margin-left: 15%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+     color: rgb(133, 134, 138);
+     /*background: #1e1e71;*/
+}
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: rgb(8, 9, 79);
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+.content {
+   
+    color: #fff;
+    max-width: 620px;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 25px;
+}
+
+.content form {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.content form input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.content form .btn {
+    font-size: 15px;
+    padding: 10px 30px;
+}

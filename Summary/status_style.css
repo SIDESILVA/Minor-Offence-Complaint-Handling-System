@@ -1,0 +1,118 @@
+/* Global Settings */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://img.freepik.com/free-photo/blue-gradient-abstract-background-empty-room-with-space-your-text-picture_1258-83405.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1708214400&semt=ais') no-repeat center center fixed;
+    background-size: cover;
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: auto;
+}
+
+/* Form Container */
+/* Form Container */
+.form-container {
+    position: relative;
+    width: 60%; /* Adjust the width of the container */
+}
+
+/* Form Wrapper */
+.wrapper {
+    position: absolute;
+    width: 40%; /* Adjust the width of the form wrapper */
+    max-width: 800px;
+    background: rgba(255, 255, 255, .1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 12px 35px 80px; /* Increased padding-bottom to increase the height */
+    top: 75px; /* Adjust top position as needed */
+    right: 400px; /* Move the form 300px from the right */
+}
+
+
+
+/* Form Title */
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Input Box Container */
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.input-box input {
+    width: 100%;
+    height: 35px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 0 10px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+/* Button Styles */
+.button-container {
+    text-align: center;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: #ccc7c7;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, .1);
+    color: #fff;
+}
+
+/* Status Details Container */
+.status-details {
+    margin-top: 30px;
+}
+
+.status-details h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detail-item {
+    width: 45%; /* Adjust width as needed */
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 6px;
+}

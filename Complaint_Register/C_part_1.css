@@ -1,0 +1,195 @@
+/* Global Settings */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://img.freepik.com/free-photo/blue-gradient-abstract-background-empty-room-with-space-your-text-picture_1258-83405.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1708214400&semt=ais') no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.list {
+    margin-top: -1%;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 150px;
+    margin-top: 50px; /* Increase the margin-top to move the navbar down */
+    margin-left: 23%;
+    font-size: 18px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin: 20px 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover {
+     color: rgba(202, 187, 187, 0.727);
+     /*background: #1e1e71;*/
+}   
+
+.navbar .list ul li a.btn {
+    background: transparent; /* Update the background for the signup button */
+    color: #000000;
+    border: 2px solid #000000; /* Add a border for the signup button */
+}
+
+/* Add this CSS for the hover effect on the signup button */
+.navbar .list ul li a.btn:hover {
+    background: #000000;
+    color: #333;
+}
+
+/* Form Wrapper */
+.wrapper {
+    width: 100%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, .1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 12px 35px 80px; /* Increased padding-bottom to increase the height */
+    margin: 50px 10px 5px; /* Decreased top margin */
+}
+
+
+/* Form Title */
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Input Box Container */
+.wrapper .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Label Styles */
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+/* Input Styles */
+.input-box input,
+.input-box select {
+    width: 100%;
+    height: 35px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+/* Textarea Styles */
+.input-box textarea {
+    width: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Placeholder Styles */
+.input-box input::placeholder,
+.input-box textarea::placeholder {
+    color: #fff;
+}
+
+/* Radio Button and Checkbox Styles */
+.gender-option {
+    color: #ffffff;
+}
+
+.gender-option input[type="radio"],
+.gender-option input[type="checkbox"] {
+    margin-right: 5px;
+}
+ 
+/* Input Box Styles */
+.input-box select {
+    width: 100%;
+    height: 35px;
+    background-color: rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+/* Select Box Styles */
+.select-box {
+    width: 100%;
+    height: 35px;
+    background-color: rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 6px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+}
+
+/* Option Styles */
+.select-box option {
+    background-color: #000000; /* Background color for options */
+    color: #ffffff; /* Text color for options */
+}
+/* Style for the Next button */
+.wrapper .btn.btn-primary {
+    width: 75px; /* Allow the button to adjust its width based on content */
+    height: 35px;
+    background: #ccc7c7;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    float: left; /* Float the button to the left */
+    margin-left: 721px; /* Increase the space between the button and the left side */
+    margin-right: 20px; /* Add margin to create space between the button and the form */
+    margin-top: 20px; /* Move the button down */
+}
+
+.wrapper .btn.btn-primary:hover {
+    background-color: rgba(255, 255, 255, .1);
+    color: #fff;
+}
+
+
+
+
+
