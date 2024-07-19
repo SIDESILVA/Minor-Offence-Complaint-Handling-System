@@ -1,0 +1,1 @@
+create for Sri Lanka Minor offence complaint system to do work easy of Police officers. target main users are police officers of Minor offence Complaint handling department in Sri Lanka. Use HTML, PHP, CSS, JS to create this. database create by using Xampp
